@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Prodection Beckend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js "
   },
   "keywords": [
     "production",
     "Backend"
   ],
   "author": "Ghulam Ali",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemo": "^1.0.0"
+  }
 }
