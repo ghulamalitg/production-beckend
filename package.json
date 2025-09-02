@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemo": "^1.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.6.2"
   }
 }
